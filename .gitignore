@@ -1,0 +1,21 @@
+# Local Agent Task Tree state; each project keeps its own operational tasks.
+/agent-tasks/
+/.agent-work/
+
+# Installer staging and local backup files.
+.task-tree-stage-*
+*.bak
+*.bak-*
+*.tmp
+
+# Windows and editor metadata.
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python and test caches if local validation tools create them.
+__pycache__/
+.pytest_cache/

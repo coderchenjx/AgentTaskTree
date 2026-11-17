@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Task Tree"
+  short_description: "Persist complex Codex work as a recoverable Markdown task tree"
+  default_prompt: "$task-tree Create or resume the project task tree and keep checkpoints updated."
